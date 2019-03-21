@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VoxelThicknessWidget</class>
+ <widget class="QWidget" name="VoxelThicknessWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VoxelThicknessWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <property name="leftMargin">
+    <number>10</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>15</number>
+   </property>
+   <item>
+    <widget class="TitleBar" name="titleBar" native="true"/>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="gb_df">
+     <property name="title">
+      <string>Distance Field</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <property name="rightMargin">
+       <number>6</number>
+      </property>
+      <property name="bottomMargin">
+       <number>6</number>
+      </property>
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item row="4" column="0" colspan="5">
+       <widget class="QLabel" name="lb_dfValues">
+        <property name="text">
+         <string>DF Values:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="5">
+       <widget class="QComboBox" name="cbb_voxel"/>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="le_dfMaxValue"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="lb_dfMaxValue">
+        <property name="text">
+         <string>Max:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="5">
+       <widget class="QLabel" name="lb_voxel">
+        <property name="text">
+         <string>Voxel:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLineEdit" name="le_dfMinValue"/>
+      </item>
+      <item row="3" column="0" colspan="5">
+       <widget class="QLineEdit" name="le_dfType"/>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="lb_dfMinValue">
+        <property name="text">
+         <string>Min:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="5">
+       <widget class="QLabel" name="lb_dfType">
+        <property name="text">
+         <string>DF Type:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="gb_thickness">
+     <property name="title">
+      <string>Thickness</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <property name="rightMargin">
+       <number>6</number>
+      </property>
+      <property name="bottomMargin">
+       <number>6</number>
+      </property>
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="le_innerThickness"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="lb_innerThickness">
+        <property name="text">
+         <string>Inner Thickness:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="lb_outerThickness">
+        <property name="text">
+         <string>Outer Thickness:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLineEdit" name="le_outerThickness"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="vspr_bottom">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="btmbox_widget">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>TitleBar</class>
+   <extends>QWidget</extends>
+   <header>titlebar.hpp</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

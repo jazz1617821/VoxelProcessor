@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VoxelDistanceFieldWidget</class>
+ <widget class="QWidget" name="VoxelDistanceFieldWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VoxelDistanceFieldWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>10</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>15</number>
+   </property>
+   <item>
+    <widget class="TitleBar" name="titleBar" native="true"/>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="gb_voxel">
+     <property name="title">
+      <string>Voxel</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <property name="rightMargin">
+       <number>6</number>
+      </property>
+      <property name="bottomMargin">
+       <number>6</number>
+      </property>
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item row="5" column="0">
+       <widget class="QLabel" name="lb_voxelSizeX">
+        <property name="text">
+         <string>X:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="lb_voxelResolutionX">
+        <property name="text">
+         <string>X:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QLabel" name="lb_voxelSizeZ">
+        <property name="text">
+         <string>Z:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="6">
+       <widget class="QLabel" name="lb_voxelResolution">
+        <property name="text">
+         <string>Voxel Resolution:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLabel" name="lb_voxelResolutionZ">
+        <property name="text">
+         <string>Z:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="6">
+       <widget class="QComboBox" name="cbb_voxel"/>
+      </item>
+      <item row="5" column="5">
+       <widget class="QLineEdit" name="le_voxelSizeZ"/>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLineEdit" name="le_voxelResolutionY"/>
+      </item>
+      <item row="3" column="5">
+       <widget class="QLineEdit" name="le_voxelResolutionZ"/>
+      </item>
+      <item row="0" column="0" colspan="6">
+       <widget class="QLabel" name="lb_voxel">
+        <property name="text">
+         <string>Voxel:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLineEdit" name="le_voxelSizeY"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="le_voxelResolutionX"/>
+      </item>
+      <item row="4" column="0" colspan="6">
+       <widget class="QLabel" name="lb_voxelSize">
+        <property name="text">
+         <string>Voxel Size:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="lb_voxelSIzeY">
+        <property name="text">
+         <string>Y:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="le_voxelSizeX"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="lb_voxelResolutionY">
+        <property name="text">
+         <string>Y:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>lb_voxel</zorder>
+     <zorder>cbb_voxel</zorder>
+     <zorder>lb_voxelResolution</zorder>
+     <zorder>lb_voxelResolutionX</zorder>
+     <zorder>le_voxelResolutionX</zorder>
+     <zorder>lb_voxelResolutionY</zorder>
+     <zorder>le_voxelResolutionY</zorder>
+     <zorder>lb_voxelResolutionZ</zorder>
+     <zorder>le_voxelResolutionZ</zorder>
+     <zorder>lb_voxelSize</zorder>
+     <zorder>lb_voxelSizeX</zorder>
+     <zorder>le_voxelSizeX</zorder>
+     <zorder>lb_voxelSIzeY</zorder>
+     <zorder>le_voxelSizeY</zorder>
+     <zorder>lb_voxelSizeZ</zorder>
+     <zorder>le_voxelSizeZ</zorder>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="gb_df">
+     <property name="title">
+      <string>Distance Field</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <property name="rightMargin">
+       <number>6</number>
+      </property>
+      <property name="bottomMargin">
+       <number>6</number>
+      </property>
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item row="5" column="5">
+       <widget class="QLineEdit" name="le_dfBoundFront"/>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="lb_dfBoundBottom">
+        <property name="text">
+         <string>Bottom:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QLabel" name="lb_dfBoundFront">
+        <property name="text">
+         <string>Front:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="le_dfResolutionX"/>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLineEdit" name="le_dfResolutionY"/>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLineEdit" name="le_dfBoundBottom"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="lb_dfResolutionY">
+        <property name="text">
+         <string>Y:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="6">
+       <widget class="QLabel" name="lb_dfResolution">
+        <property name="text">
+         <string>DF Resolution:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="le_dfBoundTop"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lb_dfBound">
+        <property name="text">
+         <string>DF Bound:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="6">
+       <widget class="QLabel" name="lb_dfType">
+        <property name="text">
+         <string>DF Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="6">
+       <widget class="QComboBox" name="cbb_df"/>
+      </item>
+      <item row="3" column="5">
+       <widget class="QLineEdit" name="le_dfResolutionZ"/>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLabel" name="lb_dfResolutionZ">
+        <property name="text">
+         <string>Z:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="lb_dfResolutionX">
+        <property name="text">
+         <string>X:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="lb_dfBoundTop">
+        <property name="text">
+         <string>Top:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="lb_dfBoundBack">
+        <property name="text">
+         <string>Back:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="le_dfBoundBack"/>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLabel" name="lb_dfBoundLeft">
+        <property name="text">
+         <string>Left:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="3">
+       <widget class="QLineEdit" name="le_dfBoundLeft"/>
+      </item>
+      <item row="6" column="4">
+       <widget class="QLabel" name="lb_dfBoundRight">
+        <property name="text">
+         <string>Right:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="5">
+       <widget class="QLineEdit" name="le_dfBoundRight"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="vspr_bottom">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="btmbox_widget">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>TitleBar</class>
+   <extends>QWidget</extends>
+   <header>titlebar.hpp</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

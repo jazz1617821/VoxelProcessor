@@ -1,0 +1,13 @@
+
+*.obj
+*.lastbuildstate
+*.pdb
+*.exe
+*.ilk
+*.log
+*.tlog
+*.db
+*.opendb
+*.raw
+.vs/VoxelProcessor/v15/.suo
+*.ipch

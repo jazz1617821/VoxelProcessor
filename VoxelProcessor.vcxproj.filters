@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\QT">
+      <UniqueIdentifier>{d0b68783-0183-42b0-bf0e-49abaa89611c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GcodeGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clipplane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dfvbo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="distancefield.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editvoxel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editvoxelvbo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enqlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="equivalentlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="marchingcube.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="meshmodel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mymath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objecttree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vbo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelvbo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelattributewidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelclipplanewidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxeldatalistmanagerwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxeldistancefieldwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxeleditoroglwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelizewidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelprocessor.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelscenemanagerwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelthicknesswidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="voxelvieweroglwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="templatewidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="smoothingwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="slicewidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="lightwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="freeformwidget.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+    <ClCompile Include="titlebar.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GcodeGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dfvbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="distancefield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="editvoxel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="editvoxelvbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enqlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="equivalentlabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="freeformwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="lightwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="marchingcube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meshmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objecttree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="slicewidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="smoothingwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="templatewidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="titlebar.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="vbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="voxelattributewidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="voxelclipplanewidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="voxeldatalistmanagerwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="voxeldistancefieldwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="voxeleditoroglwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="voxelize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="voxelizewidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="voxelprocessor.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="voxelscenemanagerwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="voxelslice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="voxelthicknesswidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="voxelvbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="voxelvieweroglwidget.hpp">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="freeformwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="slicewidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="smoothingwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="templatewidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="voxelclipplanewidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="voxeldistancefieldwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="voxelizewidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="voxelprocessor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="voxelthicknesswidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="voxelprocessor.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
